@@ -1,6 +1,7 @@
 import express from 'express';
 import { Request, Response } from 'express';
 import * as dotenv from 'dotenv';
+import MainRoute from './src/Routers/index';
 
 dotenv.config();  // Env load environment variables
 
@@ -18,3 +19,6 @@ app.listen(Port, () => {
     console.log(`Server is running on ${Port}`);
 })
 
+app.use(MainRoute); // call the main route here
+
+export default app;

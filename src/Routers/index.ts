@@ -5,3 +5,5 @@ const MainRoute = Router();
 
 MainRoute.use('/email', mailingrouter) ;
 
+export default MainRoute;
+
