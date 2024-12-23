@@ -4,16 +4,22 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": ""
+    "build": "tsc --build",
+    "start": "node ./dist/index.js",
+    "dev": "nodemon index.ts"
   },
   "keywords": [],
   "author": "Ariel",
   "license": "ISC",
   "description": "Server for Vantage Mailing system",
   "dependencies": {
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "eslint": "^9.17.0",
     "globals": "^15.14.0",
     "typescript-eslint": "^8.18.1"
