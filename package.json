@@ -1,0 +1,21 @@
+{
+  "name": "vantage-mailing",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": ""
+  },
+  "keywords": [],
+  "author": "Ariel",
+  "license": "ISC",
+  "description": "Server for Vantage Mailing system",
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "globals": "^15.14.0",
+    "typescript-eslint": "^8.18.1"
+  }
+}
