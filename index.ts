@@ -7,6 +7,10 @@ dotenv.config();  // Env load environment variables
 
 // inisialization app as an express function
 const app = express();
+app.use(express.json());
+app.use(express.urlencoded({
+    extended: false
+}));
 
 // buat app handler untuk route API for testing purposes   
 app.get('/', (req: Request, res: Response) => {
