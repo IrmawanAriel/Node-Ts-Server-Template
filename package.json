@@ -13,12 +13,17 @@
   "license": "ISC",
   "description": "Server for Vantage Mailing system",
   "dependencies": {
+    "@kintone/rest-api-client": "^5.7.0",
+    "cors": "^2.8.5",
+    "cron": "^3.5.0",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "node-cron": "^3.0.3",
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
     "eslint": "^9.17.0",
     "globals": "^15.14.0",

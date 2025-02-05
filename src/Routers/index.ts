@@ -1,9 +1,9 @@
 import { Router } from "express";
-import mailingrouter from "./mail";
+import { updateRecordHandler } from "../Handlers/UpdateRecord";
 
 const MainRoute = Router();
 
-MainRoute.use('/email', mailingrouter) ;
+MainRoute.use('/updater', updateRecordHandler) ;
 
 export default MainRoute;
 
